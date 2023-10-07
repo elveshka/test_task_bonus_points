@@ -8,7 +8,7 @@ import test.task_bonus_points.https.dtos.Merchant;
 
 @AllArgsConstructor
 @Getter
-public class BonusIncreaseRequest {
+public class DecreaseBonusRequest {
     private Customer customer;
     private Merchant merchant;
     private BonusPoints bonusPoints;
